@@ -1,0 +1,12 @@
+# Requirements for the Forensic Economics Streamlit app
+streamlit>=1.36,<2
+pandas>=2.1,<3
+numpy>=1.26,<3
+requests>=2.31,<3
+
+# Excel writers (at least one of these will be used)
+xlsxwriter>=3.2,<4
+openpyxl>=3.1,<4
+
+# Optional: only needed if you supply a Work‑Life Expectancy PDF URL
+pdfplumber>=0.11
